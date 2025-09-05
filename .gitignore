@@ -1,0 +1,44 @@
+# ---- macOS ----
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+
+# ---- Ruby ----
+*.gem
+*.rbc
+.bundle
+.config
+.yardoc
+_yardoc
+coverage/
+InstalledFiles
+pkg/
+spec/reports/
+test/tmp/
+test/version_tmp/
+tmp/
+
+# Ignore Byebug command history file.
+.byebug_history
+
+# Ignore bundler config.
+.bundle/
+
+# Ignore RubyMine project files
+.idea/
+*.iml
+
+# Ignore other editors
+*.swp
+*~
+
+# Ignore logs and temp files
+log/
+*.log
+
+# Ignore gem files
+*.gem
