@@ -2,7 +2,7 @@ class CmdSwap < Formula
   desc "Swap selected text with clipboard contents (macOS)"
   homepage "https://github.com/titsworthrob/cmd_swap"
   url "https://github.com/titsworthrob/cmd_swap/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "48d90aee30f5e806cc563aa920502a239c7062e1a7e07e6beb5b987592096a21"
+  sha256 "c3c60e6aaf511a9afd2e50b9b5cfd1b99599ddc0194f38da68463d6619b05749"
   license "MIT"
 
   depends_on :macos
