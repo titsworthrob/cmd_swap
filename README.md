@@ -15,25 +15,15 @@ A lightweight macOS utility that **swaps the current text selection with the cli
 
 ## Installation
 
-**Step 1.** Download or clone the project folder that contains `cmd_swap.rb`.
+### Recommended (via Homebrew tap)
+```bash
+brew tap titsworthrob/tools
+brew install cmd_swap
 
-**Step 2.** Make the script executable:
+###Alternative (Install directly from the formula with Homebrew:)
 
 ```bash
-chmod +x /path/to/cmd_swap.rb
-```
-
-**Step 3.** Run the script:
-
-```bash
-/path/to/cmd_swap.rb
-```
-
-Or explicitly with Ruby:
- 
-```bash
-ruby /path/to/cmd_swap.rb
-```
+brew install --formula https://raw.githubusercontent.com/titsworthrob/cmd_swap/main/Formula/cmd_swap.rb
 
 ---
 
@@ -65,6 +55,7 @@ cmd_swap --no-feedback --popup             # silent, then re-enable popup
 cmd_swap --delay=0.25                      # give slower apps more copy time
 cmd_swap --keep-clipboard                  # leave clipboard unchanged
 cmd_swap --type                            # type text instead of pasting (plain text only)
+cmd_swap --popup-timeout=1.5               # extend popup display duration
 ```
 
 ---
